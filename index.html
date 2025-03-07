@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотографии в столбик</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            padding: 15px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .card .text {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="1.jpg" alt="Фото 1">
+        <div class="text">
+            <p>Это первая фотография с описанием.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="2.jpg" alt="Фото 2">
+        <div class="text">
+            <p>Это вторая фотография.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="3.jpg" alt="Фото 3">
+        <div class="text">
+            <p>Это третья фотография.</p>
+        </div>
+    </div>
+
+</body>
+</html>
