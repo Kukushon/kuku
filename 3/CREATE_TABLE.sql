@@ -15,3 +15,9 @@ INSERT INTO langs VALUES (1, 'Pascal'), (2, 'C'), (3, 'C++'), (4, 'JavaScript'),
 
 CREATE TABLE users_languages ( user_id INTEGER, lang_id INTEGER, PRIMARY KEY (user_id, lang_id), 
 FOREIGN KEY (user_id) REFERENCES users (user_id), FOREIGN KEY (lang_id) REFERENCES langs (lang_id) );
+
+//команды для каскадного удаления
+ALTER TABLE users_languages 
+DROP FOREIGN KEY users_languages_ibfk_1, 
+ADD CONSTRAINT fk_user_id 
+FOREIGN KEY (user_id) REFERENCES users (user_id) ON DELETE CASCADE;
