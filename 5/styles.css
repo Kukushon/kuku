@@ -1,0 +1,64 @@
+.error {
+    color: red;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  margin-top: 20px;
+  font-family: sans-serif;
+  background-color: #e6e6fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("fon.jpg");
+  background-repeat: repeat;
+  background-size: 40%;
+}
+
+#hform {
+  border: 6px solid #C38DAE;
+  border-radius: 30%;
+  padding: 5%;
+  background-color: #DBC5D1;
+  margin-top: 40px;
+  text-align: center;
+}
+#sendbutton {
+  border: 6px solid #C38DAE;
+  border-radius: 15%;
+  margin-top: 10%;
+  padding: 6%;
+  background-color: #C38DAE;
+  color: #DBC5D1;
+}
+.h2 {
+  color: #303C54;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+button {
+  border: 6px solid #C38DAE;
+    border-radius: 50%;
+    background-color: #DBC5D1;
+    margin-bottom: 10px;
+    padding: 6%;
+    font-size: medium;
+    color: #0e0e2d;
+}
+.linktomain {
+  text-decoration: none;
+  color: #303C54;
+  font-size: medium;
+}
+#greentext {
+  text-align: center;
+}
+input {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  border-radius: 3%;
+}
